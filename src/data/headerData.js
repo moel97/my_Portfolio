@@ -1,9 +1,9 @@
 import resume from '../assets/pdf/resume.pdf'
-
 export const headerData = {
-    name: 'Jane Doe',
+    name: 'Mohamed Elsayed',
     title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
-    resumePdf: resume
+    desciption:"Welcome to my digital space! I specialize in handcrafting elegant solutions for the web. Passionate about exploring new technologies, I’m here to share my work and ideas with you. Enjoy your visit!",
+    image: 'Elsayed.png',
+    resumePdf: resume,
+    logo: 'MO.Elsayed'
 }

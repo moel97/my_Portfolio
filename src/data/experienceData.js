@@ -1,23 +1,23 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Globex Corporation',
-        jobtitle: 'Frontend Developer',
-        startYear: '2018',
-        endYear: '2019'
+        company: 'ASAP Electronics GmbH, Ingolstadt',
+        jobtitle: 'Software Developer in E-Drive Data Analysis Division',
+        startYear: 'Mar. 2023',
+        endYear: 'Present'
     },
     {
         id: 2,
-        company: 'Vehement Capital Partners',
-        jobtitle: 'Backend Developer',
-        startYear: '2019',
-        endYear: '2020'
+        company: 'Avatera Medical GmbH, Ilmenau',
+        jobtitle: 'Intern in Test and Tool Development Division',
+        startYear: 'Jun. 2022',
+        endYear: 'Dec. 2022'
     },
     {
         id: 3,
-        company: 'Wonka Industries',
-        jobtitle: 'Marketing',
-        startYear: '2020',
-        endYear: 'Present'
+        company: 'Steinbeis GmbH, Ilmenau',
+        jobtitle: 'Intern',
+        startYear: 'Jan. 2022',
+        endYear: 'Apr. 2022'
     },
-]
+];

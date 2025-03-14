@@ -134,7 +134,7 @@ function Navbar() {
         <div className='navbar'>
             <div className='navbar--container'>
                 <h1 style={{ color: theme.secondary }}>
-                    {shortname(headerData.name)}
+                    {shortname(headerData.logo)}
                 </h1>
 
                 <IoMenuSharp
@@ -231,7 +231,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#services'
+                                to='/#projects'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -241,13 +241,13 @@ function Navbar() {
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Services
+                                        projects
                                     </span>
                                 </div>
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
+                        {/* <Fade left>
                             <NavLink
                                 to='/#blog'
                                 smooth={true}
@@ -263,7 +263,7 @@ function Navbar() {
                                     </span>
                                 </div>
                             </NavLink>
-                        </Fade>
+                        </Fade> */}
 
                         <Fade left>
                             <NavLink

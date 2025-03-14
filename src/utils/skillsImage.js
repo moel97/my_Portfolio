@@ -58,7 +58,7 @@ import strapi from '../assets/svg/skills/strapi.svg'
 import tensorflow from '../assets/svg/skills/tensorflow.svg'
 import webix from '../assets/svg/skills/webix.svg'
 import wordpress from '../assets/svg/skills/wordpress.svg'
-
+import Node from '../assets/svg/skills/node.svg'
 import azure from '../assets/svg/skills/azure.svg'
 import blender from '../assets/svg/skills/blender.svg'
 import fastify from '../assets/svg/skills/fastify.svg'
@@ -72,8 +72,12 @@ import picsart from '../assets/svg/skills/picsart.svg'
 import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
-
+import Jenkins from '../assets/svg/skills/jenkins.svg'
 import canva from '../assets/svg/skills/canva.svg'
+import Ubuntu from '../assets/svg/skills/ubuntu.svg'
+import linux from '../assets/svg/skills/linux.svg'
+import terraform from '../assets/svg/skills/terraform.svg'
+import kubernetes from '../assets/svg/skills/kubernetes.svg'
 
 
 export const skillsImage = (skill) => {
@@ -227,6 +231,18 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'node':
+            return Node;
+        case 'jenkins':
+            return Jenkins;
+        case 'ubuntu':
+            return Ubuntu;
+        case 'linux':
+            return linux;
+        case 'terraform':
+            return terraform;
+        case 'kubernetes':
+            return kubernetes;
         default:
             break;
     }

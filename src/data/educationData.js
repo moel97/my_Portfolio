@@ -1,23 +1,23 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Marble Hills Middle School',
-        course: 'Higher Secondary Education',
-        startYear: '2007',
-        endYear: '2015'
+        institution: 'Technical University of Ilmenau, Germany',
+        course: 'B.Sc. in Mechatronics',
+        startYear: '2019',
+        endYear: '2023'
     },
     {
         id: 2,
-        institution: 'Somerset School of Science',
-        course: 'Bachelor of Technology',
+        institution: 'Mansoura University, Egypt',
+        course: 'B.Sc. in Mechanical Engineering',
         startYear: '2015',
-        endYear: '2019'
+        endYear: '2018 (Not Completed)'
     },
     {
         id: 3,
-        institution: 'Hawking University, Cambridge',
-        course: 'Master of Technology',
-        startYear: '2019',
-        endYear: 'Present'
+        institution: 'Biqas Secondary School',
+        course: 'Higher Secondary Education',
+        startYear: '2012',
+        endYear: '2015'
     },
-]
+];

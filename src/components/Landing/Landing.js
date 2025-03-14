@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useRef} from 'react';
 import { Button } from '@material-ui/core';
 import { NavHashLink as NavLink } from 'react-router-hash-link';
 import { makeStyles } from '@material-ui/core/styles';
@@ -8,12 +8,14 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
+import { TypeAnimation } from 'react-type-animation';
 import {
     FaTwitter,
     FaLinkedin,
     FaGithub,
     FaYoutube,
     FaBlogger,
+    FaXing
 } from 'react-icons/fa';
 
 function Landing() {
@@ -67,6 +69,8 @@ function Landing() {
 
     const classes = useStyles();
 
+
+
     return (
         <div className='landing'>
             <div className='landing--container'>
@@ -101,42 +105,16 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                         {socialsData.xing && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.xing}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaXing
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
-                                />
-                            </a>
-                        )}
-                        {socialsData.youtube && (
-                            <a
-                                href={socialsData.youtube}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaYoutube
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
-                                />
-                            </a>
-                        )}
-                        {socialsData.blogger && (
-                            <a
-                                href={socialsData.blogger}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaBlogger
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
+                                    aria-label='Xing'
                                 />
                             </a>
                         )}
@@ -159,8 +137,22 @@ function Landing() {
                         className='lcr--content'
                         style={{ color: theme.tertiary }}
                     >
-                        <h6>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
+                        <h6>
+                        <TypeAnimation
+                                sequence={[
+                                    'Fullstack Developer', 2000, // Type "Hello, world!" then pause for 1 sec
+                                    '', 1000, // Delete text then pause for 0.5 sec
+                                    'Software Developer', 2000, // Type new text
+                                    '', 1000, // Delete text
+                                    'Devops', 2000, // Repeat with another text
+                                    '', 1000,
+                                ]}
+                                wrapper="h3"
+                                cursor={true}
+                                repeat={Infinity} // Loop indefinitely
+                        />
+                        </h6>
                         <p>{headerData.desciption}</p>
 
                         <div className='lcr-buttonContainer'>

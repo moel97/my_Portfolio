@@ -16,7 +16,7 @@ export const projectsData = [
         tags: ['React & CSS', 'PostgreSQL', 'Express', 'Node.js'],
         code: 'https://github.com/moel97/Blogpost',
         demo: 'https://blogsphere.elkassabi.eu/',
-        image: one
+        image: three
     },
     {
         id: 2,

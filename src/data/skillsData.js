@@ -3,7 +3,6 @@
     'CSS',
     'Tailwind',
     'Javascript',
-    'Typescript',
     'React',
     'Node',
     'C++',
